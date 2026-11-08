@@ -7,8 +7,8 @@ from sklearn.metrics import (accuracy_score, roc_auc_score, precision_score, rec
                              ConfusionMatrixDisplay, classification_report)
 
 st.set_page_config(page_title="Spam Detector – ML Assignment 2", layout="wide")
-st.title("Spam Email Classifier")   SPAM Classifier:ID 2025AG05922
-st.write("Upload the test CSV, pick a model, and see how it performs.")  SPAN CLassifier Assignment_ID_2025AG05922
+st.title("SPAM Classifier: ID 2025AG05922")
+st.write("Upload the test data, choose a model and compare the results.")
 
 MODEL_FILES = {
     "Logistic Regression": "model/logistic_regression.pkl",
